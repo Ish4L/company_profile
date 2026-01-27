@@ -38,11 +38,11 @@
             $_SESSION['status_login'] = true;
 
             if($row['level'] == 'admin'){
-            echo "<script>alert('Ssuccess')</script>";
+            echo "<script>alert('Success')</script>";
             echo '<script type="text/javascript">window.location="admin/dashboard.php"</script>';
 
             }elseif($row['level'] == 'pelanggan'){
-            echo "<script>alert('Ssuccess')</script>";
+            echo "<script>alert('Success')</script>";
             echo '<script type="text/javascript">window.location="admin/dashboard_user.php"</script>';
 
             }
