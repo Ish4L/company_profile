@@ -27,7 +27,7 @@ a {
     background-color: #fff;
     padding: 15px;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .box-login h2 {
@@ -56,4 +56,3 @@ a {
 form {
     margin-bottom: 25px;
 }
-
