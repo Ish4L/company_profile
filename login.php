@@ -14,7 +14,7 @@
             <input type="text" name="user" placeholder="Username" class="input-control">
             <input type="password" name="pass" placeholder="Password" class="input-control">
             <input type="submit" name="submit" value="Login" class="btn"><br>
-            <label>Belum punya akun?</label> <a href="register.php"><strong>Klik di sini untuk Daftar</strong></a>
+            <label>Belum punya akun?</label> <a href="register.php"><strong>Klik di sini untuk Register</strong></a>
         </form>
         <?php
         include('db.php');
