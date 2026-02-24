@@ -15,6 +15,9 @@
             <input type="text" name="alamat" placeholder="Alamat" class="input-control" required>
             <input type="text" name="telpon" placeholder="No. Telp" class="input-control" required>
             <input type="text" name="email" placeholder="Email" class="input-control" required>
+            <hr><br>
+            <input type="text" name="user" placeholder="Username" class="input-control" required>
+            <input type="text" name="password" placeholder="Password" class="input-control" required>
             <input type="submit" name="submit" value="Register" class="btn"><br>
             <label>Sudah punya akun?</label> <a href="login.php"><strong>Klik di sini untuk Login</strong></a>
         </form>
