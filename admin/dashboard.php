@@ -13,11 +13,13 @@
 
         <div class="sidebar">
             <div class="sidebar-title"><b>JajanD JalanD</b></div>
-            <ul><?php include 'sidebar.php' ?></ul>
+            <ul>
+                <?php include 'sidebar.php'; ?>
+            </ul>
         </div>
 
         <div class="section">
-            <h2>Selamat Datang Admin Sistem</h2>
+            <h2>Selamat Datang "Admin Sistem"</h2>
         </div>
     </div>
 </body>
