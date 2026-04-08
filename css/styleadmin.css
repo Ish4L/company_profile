@@ -164,9 +164,10 @@ body{
     border-bottom: 1px solid #364554;
 }
 
-.sidebar ul li a:hover {
+.sidebar ul li a:hover{
     background: #465869;
 }
+
 .sidebar ul li a:active,.sidebar ul li a:visited{
     background: #2c3843;
 }
