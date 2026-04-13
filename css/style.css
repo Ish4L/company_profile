@@ -53,6 +53,10 @@ a {
     border-radius: 5px;
 }
 
+.btn:hover {
+    background-color: #475c2f;
+}
+
 form {
     margin-bottom: 25px;
 }

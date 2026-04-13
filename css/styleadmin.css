@@ -172,6 +172,10 @@ body{
     background: #2c3843;
 }
 
+.logout:hover {
+    color: rgb(252, 54, 54);
+}
+
 .section{
     position: relative;
     width: auto;

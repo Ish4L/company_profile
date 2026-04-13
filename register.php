@@ -33,15 +33,15 @@
                 $password   = $_POST['pass'];
 
                 $insert = mysqli_query($conn, "INSERT INTO tb_admin VALUES (
-                null,
-                '".$nama."',
-                '".$username."',
-                '".$password."',
-                '".$telpon."',
-                '".$email."',
-                '".$alamat."',
-                'pelanggan'
-                )");
+                                        null,
+                                        '".$nama."',
+                                        '".$username."',
+                                        '".$password."',
+                                        '".$telpon."',
+                                        '".$email."',
+                                        '".$alamat."',
+                                        'pelanggan'
+                                        )");
 
                 if($insert){
                     echo "<script>alert('Register berhasil, silakan login')</script>";

@@ -20,7 +20,11 @@
         </div>
 
         <div class="section">
-            <h2>Selamat Datang "Admin Sistem"</h2>
+            <?php 
+                $query = mysqli_query($conn, "SELECT * FROM tb_admin WHERE admin_id = '".$_SESSION['id_login']."' ");
+                $d = mysqli_fetch_object($query);
+            ?>
+            <h2>Selamat Datang "<?php echo $d->admin_name;?>"</h2>
         </div>
     </div>
 </body>
