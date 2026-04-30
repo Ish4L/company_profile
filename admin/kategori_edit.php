@@ -6,11 +6,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styleadmin.css">
+<<<<<<< HEAD
     <title>Halaman Kategori Admin</title>
 </head>
 
 <body>
 
+=======
+    <title>Kategori Edit</title>
+</head>
+
+<body>
+>>>>>>> f67126ce8324c956859805f7bc74f30f9c71533c
     <body>
         <div class="wrapper">
             <div class="header"></div>
@@ -39,7 +46,6 @@
                             <label>Nama Kategori</label>
                             <input type="text" name="nama" value="<?php echo $k->category_name ?>" class="form-control" required>
                         </fieldset>
-
                         <fieldset>
                             <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Edit</button>
                         </fieldset>
@@ -64,5 +70,4 @@
         </div>
     </body>
 </body>
-
 </html>
