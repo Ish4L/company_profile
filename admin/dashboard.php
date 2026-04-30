@@ -18,7 +18,7 @@ include('session.php');
         <div class="header"></div>
 
         <div class="sidebar">
-            <div class="sidebar-title"><b>Just's Company</b></div>
+            <div class="sidebar-title"><b>JajanD JalanD</b></div>
             <ul>
                 <?php include 'sidebar.php' ?>
             </ul>

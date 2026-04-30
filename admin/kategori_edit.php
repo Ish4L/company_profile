@@ -16,7 +16,7 @@
             <div class="header"></div>
 
             <div class="sidebar">
-                <div class="sidebar-title"><b>Warung X RPL</b></div>
+                <div class="sidebar-title"><b>JajanD JalanD</b></div>
                 <ul>
                     <?php include 'sidebar.php' ?>
                 </ul>
